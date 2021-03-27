@@ -29,16 +29,33 @@ body{
     padding: 0 20px;
 }
 img {
-    min-width: 100%;
+    // min-width: 100%;
     height: auto;
 }
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+
+.header__hamburger{
+    display: none;
 }
-.header_list{
+.header__wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo-img{
+    width: 264px;
+}
+.header__list{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.header__item{
+    text-transform: uppercase;
+    padding: 0 0 0 70px;
+ }
+.header__link{
+    text-decoration: none;
+    color: #000;
 }
