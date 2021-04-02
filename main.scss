@@ -1,10 +1,6 @@
 $main_background: #E5E5E5; 
 $general_color: #E63E00;
 
-@import 'style/header.scss';
-@import 'style/primary.scss'; 
-@import 'style/fonts';
-
 a {
     list-style: none;
 }
@@ -29,6 +25,11 @@ img {
     // min-width: 100%;
     height: auto;
 }
+
+
+@import 'style/header.scss';
+@import 'style/primary.scss'; 
+@import 'style/fonts';
 
 // переменные
 // шрифты
