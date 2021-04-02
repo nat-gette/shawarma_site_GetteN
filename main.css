@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
 }
 
 .header__logo-img {
@@ -16,6 +18,8 @@
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header__item {
@@ -41,11 +45,11 @@
   margin-top: 85px;
 }
 
-.primary {
-  padding: 0 50px 60px 0;
+.primary__background {
   background-image: url("img/backgrounds/logo-shawarma 1.png");
   background-repeat: no-repeat;
   background-position: right;
+  padding: 60px 0;
 }
 
 @font-face {
