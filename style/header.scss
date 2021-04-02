@@ -1,0 +1,28 @@
+.header__hamburger{
+    display: none;
+}
+.header__wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo-img{
+    width: 264px;
+}
+.header__list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.header__item{
+    padding: 0 0 0 70px;
+    text-transform: uppercase;
+ }
+.header__link{
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        color: $general_color; 
+        transition: all ease-out .4s;
+    }
+}

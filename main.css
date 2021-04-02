@@ -1,8 +1,43 @@
+.header__hamburger {
+  display: none;
+}
+
+.header__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo-img {
+  width: 264px;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.header__item {
+  padding: 0 0 0 70px;
+  text-transform: uppercase;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
+.header__link:hover {
+  color: #E63E00;
+  transition: all ease-out 0.4s;
+}
+
 @font-face {
   font-family: "ubuntubold";
   src: url("fonts/ubuntubold.woff") format("woff"), url("fonts/ubuntubold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "ubuntumedium";
@@ -10,6 +45,10 @@
   font-weight: normal;
   font-style: normal;
 }
+a {
+  list-style: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -31,34 +70,4 @@ body {
 
 img {
   height: auto;
-}
-
-.header__hamburger {
-  display: none;
-}
-
-.header__wrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.header__logo-img {
-  width: 264px;
-}
-
-.header__list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-
-.header__item {
-  text-transform: uppercase;
-  padding: 0 0 0 70px;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #000;
 }

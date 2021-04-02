@@ -1,17 +1,13 @@
-@font-face{
-    font-family: "ubuntubold" ;
-    src: url("fonts/ubuntubold.woff") format("woff"),
-     url("fonts/ubuntubold.woff2") format("woff2");
-     font-weight: normal;
-     font-style: normal;
+$main_background: #E5E5E5; 
+$general_color: #E63E00;
+
+@import 'style/header.scss';
+@import 'style/fonts';
+
+a {
+    list-style: none;
 }
-@font-face{
-    font-family: "ubuntumedium" ;
-    src: url("fonts/ubuntumedium.woff") format("woff"),
-     url("fonts/ubuntumedium.woff2") format("woff2");
-     font-weight: normal;
-     font-style: normal;
-}
+
 * {
     box-sizing: border-box;
 }
@@ -21,7 +17,7 @@ body{
     font-size: 24px;
     line-height: 28px;
     color: #000 ;
-    background-color: #E5E5E5;
+    background-color: $main_background;
 }
 .container{
     width: 1200px ;
@@ -33,29 +29,7 @@ img {
     height: auto;
 }
 
-.header__hamburger{
-    display: none;
-}
-.header__wrap{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.header__logo-img{
-    width: 264px;
-}
-.header__list{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    
-    
-}
-.header__item{
-    text-transform: uppercase;
-    padding: 0 0 0 70px;
- }
-.header__link{
-    text-decoration: none;
-    color: #000;
-}
+// переменные
+// шрифты
+// переменные шрифтов
+// стили
