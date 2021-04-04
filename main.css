@@ -91,6 +91,51 @@ img {
   color: #FFFFFF;
 }
 
+.why__header {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 500;
+}
+
+.why__wrap {
+  background-image: url("img/why/shawarma 1.png");
+  background-repeat: no-repeat;
+  background-position: 30px 150px;
+}
+
+.why__header__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why_list_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.why__list {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+.why__list__item {
+  position: relative;
+  font-size: 32px;
+  line-height: 37px;
+  padding: 15px 0 40px 40px;
+}
+.why__list__item::before {
+  counter-increment: section;
+  content: "" counter(section) "";
+  color: #E63E00;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
 @font-face {
   font-family: "ubuntubold";
   src: url("fonts/ubuntubold.woff") format("woff"), url("fonts/ubuntubold.woff2") format("woff2");
