@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "ubuntubold";
+  src: url("fonts/ubuntubold.woff") format("woff"), url("fonts/ubuntubold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ubuntumedium";
+  src: url("fonts/ubuntumedium.woff") format("woff"), url("fonts/ubuntumedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 a {
   list-style: none;
 }
@@ -73,7 +86,7 @@ img {
 }
 
 .primary__background {
-  background-image: url("img/backgrounds/logo-shawarma 1.png");
+  background-image: url("img/backgrounds/logo-shawarma1.png");
   background-repeat: no-repeat;
   background-position: right;
   padding: 60px 0;
@@ -99,7 +112,7 @@ img {
 }
 
 .why__wrap {
-  background-image: url("img/why/shawarma 1.png");
+  background-image: url("img/why/shawarma1.png");
   background-repeat: no-repeat;
   background-position: 30px 150px;
 }
@@ -134,18 +147,4 @@ img {
   position: absolute;
   left: 10px;
   top: 10px;
-}
-
-@font-face {
-  font-family: "ubuntubold";
-  src: url("fonts/ubuntubold.woff") format("woff"), url("fonts/ubuntubold.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ubuntumedium";
-  src: url("fonts/ubuntumedium.woff") format("woff"), url("fonts/ubuntumedium.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
 }

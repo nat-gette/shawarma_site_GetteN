@@ -8,22 +8,19 @@
     // display: flex;
     // flex-direction: column;
     // align-items: center;
-    background-image: url("img/why/shawarma 1.png");
+    background-image: url("img/why/shawarma1.png");
     background-repeat: no-repeat;
     background-position: 30px 150px;
-    
 }
 .why__header__wrap{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
 .why_list_wrap{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
 }
 .why__list{
     counter-reset: section;          
