@@ -12,7 +12,7 @@
    
        
     <header class="header">
-        <div div class="container header__wrap">
+        <div  class="container header__wrap">
             <img src="img/header/logo-shawarma1.png"  class="header__logo-img">
             <nav class="header__nav">
                 <ul class="header__list">
@@ -63,7 +63,7 @@
                 <p class="catalog__product-text">Жаренное на гриле куриное филе с добавлением фирменных специй, спелые томаты, свежие огурцы, хрустящий салат, маринованный красный лук, свежая зелень, маринованные огурцы и все это завернуто в свежеиспеченный лаваш с двумя авторскими соусами</p>
                 <div class="catalog__prise-wrap">
                     <span class="catalog__prise"> От 180</span>
-                    <button class="catalog__order-button" type="button">Заказать</button>
+                    <button class="catalog__button" type="button">Заказать</button>
                 </div>
             </li>
             <li class="catalog__list-item">
@@ -72,7 +72,7 @@
                  <p class="catalog__product-text">Жаренное на гриле куриное филе с добавлением фирменных специй, спелые томаты, свежие огурцы, хрустящий салат, маринованные огурцы с добавлением острых перчиков халапеньо и картофеля пай и все это завернуто в свежеиспеченный лаваш с двумя авторскими соусами</p>
                  <div class="catalog__prise-wrap">
                      <span class="catalog__prise">От 240</span>
-                     <button class="catalog__order-button" type="button">Заказать</button>
+                     <button class="catalog__button" type="button">Заказать</button>
                  </div>
             </li>
             <li class="catalog__list-item">
@@ -81,11 +81,30 @@
                 <p class="catalog__product-text">Жаренное на гриле куриное филе с добавлением фирменных специй, спелые томаты, свежая зелень, сыр моцарелла, сочные ломтики бекона с добавлением острых перчиков халапеньо и все это завернуто в свежеиспеченный лаваш с двумя авторскими соусами</p>
                 <div class="catalog__prise-wrap">
                     <span class="catalog__prise">От 210</span>
-                    <button class="catalog__order-button" type="button">Заказать</button>
+                    <button class="catalog__button" type="button">Заказать</button>
                 </div>
             </li>
            
         </ul>
+    </section>
+    <section class="container order">
+        <div class="order__wrap">
+            <h3 class="order__title">Оставьте заявку</h3>
+            <ul class="input">
+                 <li class="input__item">
+                     <label class="input__name" for="userName">Имя</label>
+                     <input class="input__text" id="userName" type="text" placeholder="">
+                 </li>
+                 <li class="input__item"> 
+                     <label class="input__name" for="userPhone">Телефон</label>
+                     <input class="input__text" id="userPhone" type="text" placeholder="">
+                 </li>
+            </ul>
+            <div class="order__footer">
+                <p class="order__notice">*Нажимая кнопку, я даю свое согласие на обработку персональных данных</p>
+                <button class="order__button" type="button">Отправить</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
