@@ -30,3 +30,11 @@
         transition: all ease-out .4s;
     }
 }
+
+
+@media (max-width: 768px) { 
+    .header__list {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
