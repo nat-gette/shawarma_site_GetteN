@@ -13,7 +13,7 @@
     background-image: url("img/backgrounds/logo-shawarma1.png");
     background-repeat: no-repeat;
     background-position: right;
-    padding: 60px 0;
+    padding: 60px 20px;
 }
 .button__check{
     width: 203px;
@@ -25,4 +25,13 @@
     line-height: 28px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+@media (max-width: 768px) { 
+    .slogan{
+        width: 354px;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 100px;
+        margin-top: 25px ;
+    }
 }

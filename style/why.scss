@@ -36,7 +36,26 @@
        content: "" counter(section) ""; 
        color: $general_color;
        position: absolute;
-       left: 10px;
+       left: 1px;
        top: 10px;
     }
+}
+@media (max-width: 768px) { 
+    .why__wrap{
+        background-size: 299px;
+        background-position: 460px 420px;
+        padding-bottom: 150px;
+    }
+    .why__header{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .why_list_wrap{
+        align-items: center;
+    }
+    .why__list__item{
+        font-size: 30px;
+        line-height: 34px;
+    }
+
 }
