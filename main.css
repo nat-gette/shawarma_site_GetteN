@@ -418,3 +418,60 @@ img {
   border: 0;
   background-color: transparent;
 }
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.footer__logo {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.footer__data-date {
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.footer__data-confidentiality {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__nav {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.footer__nav-item {
+  padding-bottom: 15px;
+}
+
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.footer__socials-vk {
+  padding-bottom: 40px;
+}
+
+.footer__contacts-info {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer__contacts-male {
+  font-size: 24px;
+  line-height: 28px;
+}
