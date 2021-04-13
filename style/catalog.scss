@@ -22,6 +22,7 @@
 }
 .catalog__list-item{
     padding-right: 25px;
+    width: calc(100% / 2)
 }
 // .catalog__product{
 
@@ -68,4 +69,29 @@
 
     border-radius: 3px; 
     border: none;
+}
+@media (max-width: 768px) {
+    .catalog__list{
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .catalog__list-item{
+        padding-bottom: 40px;
+    }
+    .catalog__title{
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .catalog__product{
+        width: 350px;
+    }
+    .catalog__product-name{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .catalog__product-text{
+        font-size: 16px;
+        line-height: 17px;
+    }
 }

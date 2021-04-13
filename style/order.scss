@@ -90,3 +90,8 @@
     border-radius: 3px; 
     border: none;
 }
+@media (max-width: 768px) {
+  .order__wrap {
+    align-items: center;
+  }
+}
