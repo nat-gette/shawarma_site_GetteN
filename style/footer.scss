@@ -23,6 +23,7 @@
     font-size: 20px;
     line-height: 23px; 
     list-style-type: none;
+    font-weight: 500;
 }
 .footer__nav-item{
     padding-bottom: 15px;
@@ -57,7 +58,6 @@
 @media (max-width: 768px) {
     .footer__wrap{
        flex-wrap: wrap;
-     
     }
     
     .footer__data{
@@ -66,16 +66,18 @@
     }
     .footer__nav{
         width: calc(100% / 2);
-  
+        display: flex;
+        flex-wrap: wrap;
     }
     .footer__nav-item{
         padding-bottom: 50px;
+        width: calc(100% / 2);
     }
     .footer__socials{
         width: 100%;
         flex-direction: row;
         justify-content: center;
-        padding-top: 70px;
+        padding-top: 50px;
     }
     .footer__socials-vk{
         padding: 0 125px  0 0;

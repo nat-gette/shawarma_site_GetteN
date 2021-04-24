@@ -33,3 +33,9 @@ $('.clients__list').slick({
       // instead of a settings object
     ]
   });
+  let mainMenu = document.querySelector('.header__list');
+  let mainHamburger = document.querySelector('.header__humburger');
+
+  mainHamburger.addEventListener('click',() =>{
+    mainMenu.classList.toggle("header__list--active");
+  } );

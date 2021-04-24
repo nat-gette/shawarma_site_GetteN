@@ -15,7 +15,11 @@
        
     <header class="header">
         <div  class="container header__wrap">
-            <img src="img/header/logo-shawarma1.png"  class="header__logo-img">
+            <picture>
+                <source media="(max-width: 320px)" srcset="img/header320/logo-shawarma-mobile-320.png">
+                <img src="img/header/logo-shawarma1.png"  class="header__logo-img">
+            </picture>
+            
             <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
@@ -35,8 +39,8 @@
             <button class="header__hamburger hamburger ">Открыть меню</button>
         </div>
      </header> 
-   <section class=" primary">
-        <div class="container primary__background">
+   <section class="container primary">
+        <div class=" primary__background">
         <p class="slogan">Лучшая шаурма в городе. Доставим за 15 минут либо заказ за наш счет </p>
         <button class="button__check" type="button">Проверить</button>
         </div>
