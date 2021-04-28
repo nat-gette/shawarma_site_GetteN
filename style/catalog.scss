@@ -95,3 +95,17 @@
         line-height: 17px;
     }
 }
+@media (max-width: 320px) {
+   .section-title{
+        font-size: 26px;
+        line-height: 30px;
+   }
+   .catalog__list{
+       flex-direction: column;
+       align-content: flex-start;
+   }
+   .catalog__product{
+        width: 280px;
+   }
+   .
+}
